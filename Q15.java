@@ -9,7 +9,7 @@ System.out.println(week[d]);
 public class Q15 { 
 public static void main(String[] arge){ 
 Scanner d = new Scanner(System.in); 
-System.out.print("½Ð¿é¤J1~7 : "); 
+System.out.print("請輸入1~7 :"); 
 new Dates().askDate(d.nextInt()); 
 } 
 } 

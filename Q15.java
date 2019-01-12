@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class Dates{ 
-    String week[] = {"","¤@","¤G","¤T","¥|","¤­","¤»","¤é"}; 
+    String week[] = {"","ä¸€","äºŒ","ä¸‰","å››","äº”","å…­","æ—¥"}; 
     public void askDate(int d){ 
 System.out.println(week[d]); 
     } 
@@ -9,7 +9,7 @@ System.out.println(week[d]);
 public class Q15 { 
 public static void main(String[] arge){ 
 Scanner d = new Scanner(System.in); 
-System.out.print("½Ğ¿é¤J1~7 : "); 
+System.out.print("Â½ÃÂ¿Ã©Â¤J1~7 : "); 
 new Dates().askDate(d.nextInt()); 
 } 
 } 

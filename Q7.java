@@ -14,14 +14,14 @@ public class Q7 {
 		int start,end;
 		long  out = 0;
 		 Scanner scanner = new Scanner(System.in);
-	     System.out.print("½Ð¿é¤Ja");
+	     System.out.print("è«‹è¼¸å…¥a");
 	    end = scanner.nextInt();
-	    if(end > 10) {System.out.print("½d³ò¿ù»~¡A½Ð­«·s¿é¤J¡C");System.exit(0);}
-	    if(end ==0) {System.out.print("µ²§ô");System.exit(0);}
-	    System.out.print("½Ð¿é¤Jb");
+	    if(end > 10) {System.out.print("ç¯„åœéŒ¯èª¤ï¼Œè«‹é‡æ–°è¼¸å…¥ã€‚");System.exit(0);}
+	    if(end ==0) {System.out.print("çµæŸ");System.exit(0);}
+	    System.out.print("è«‹è¼¸å…¥b");
 	    start = scanner.nextInt();
-	    if(start > 10) {System.out.print("½d³ò¿ù»~¡A½Ð­«·s¿é¤J¡C");System.exit(0);}
-	    if(start ==0) {System.out.print("µ²§ô");System.exit(0);}
+	    if(start > 10) {System.out.print("ç¯„åœéŒ¯èª¤ï¼Œè«‹é‡æ–°è¼¸å…¥ã€‚");System.exit(0);}
+	    if(start ==0) {System.out.print("çµæŸ");System.exit(0);}
 		fact procd = new fact();
 		if(start > end) {
 			int cache_s = start;
@@ -29,17 +29,13 @@ public class Q7 {
 			start = cache_e;
 			end = cache_s;
 		}
-		if(start ==1) {
-			end--;
-			for(int k = 0;k<=end;k++) {System.out.print("¡@");}
-			System.out.println("1");
-		}
+		
 		for(int i= start ;i<=end;i++) {
 			int j = end-i;
-			for(int k = 0;k<=j;k++) {System.out.print("¡@");}
+			for(int k = 0;k<=j;k++) {System.out.print("ã€€");}
 		for(int x= 0 ;x <=i;x++) {
 		out=	procd.recursive(i) /( procd.recursive(i-x)* procd.recursive(x));
-		System.out.print(out +" ");
+		System.out.print(out +" ã€€");
 		}
 		System.out.print("\n");
 	}

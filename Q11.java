@@ -1,3 +1,4 @@
+//Q11
 import java.util.Scanner;
 public class Q11 {
 
@@ -12,21 +13,21 @@ public class Q11 {
 		int status =1;
 		Scanner scanner = new Scanner(System.in);
 		while( status ==1){
-		System.out.println("½Ð¿é¤J²Ä¤@­Ó¤è°}:");
+		System.out.println("è«‹è¼¸å…¥ç¬¬ä¸€å€‹æ–¹é™£:");
 		 i = 1;
 			for (int j=1;j<=3;j++) {
 				for (int k=1;k<=3;k++) {
-					System.out.print("½Ð¿é¤J²Ä"+i+"­Ó¦]¤l:");
+					System.out.print("è«‹è¼¸å…¥ç¬¬"+i+"å€‹å› å­:");
 					a[j][k] =scanner.nextInt();
 					
 					i++;
 				}
 			}
-			System.out.println("½Ð¿é¤J²Ä¤G­Ó¤è°}:");
+			System.out.println("è«‹è¼¸å…¥ç¬¬äºŒå€‹æ–¹é™£:");
 			i = 1;
 			for (int j=1;j<=3;j++) {
 				for (int k=1;k<=3;k++) {
-					System.out.print("½Ð¿é¤J²Ä"+i+"­Ó¦]¤l:");
+					System.out.print("è«‹è¼¸å…¥ç¬¬"+i+"å€‹å› å­:");
 					b[j][k]= scanner.nextInt();
 					i++;
 				}
@@ -40,8 +41,8 @@ public class Q11 {
 				}
 			}
 			
-		//¿é¥X
-			System.out.println("²Ä¤@­Ó¤è°}:");
+		//è¼¸å‡º
+			System.out.println("ç¬¬ä¸€å€‹æ–¹é™£:");
 			for (int j=1;j<=3;j++) {
 				for (int k=1;k<=3;k++) {
 					System.out.print(a[j][k] +" ");
@@ -49,7 +50,7 @@ public class Q11 {
 				System.out.print("\n");
 			}
 			
-			System.out.println("\n²Ä¤G­Ó¤è°}:");
+			System.out.println("\nç¬¬äºŒå€‹æ–¹é™£:");
 			for (int j=1;j<=3;j++) {
 				for (int k=1;k<=3;k++) {
 					System.out.print(b[j][k] +" ");
@@ -57,7 +58,7 @@ public class Q11 {
 				System.out.print("\n");
 			}
 			
-			System.out.println("\n²Ä¤T­Ó¤è°}:");
+			System.out.println("\nç¬¬ä¸‰å€‹æ–¹é™£:");
 			for (int j=1;j<=3;j++) {
 				for (int k=1;k<=3;k++) {
 					System.out.print(c[j][k]+" ");
@@ -65,10 +66,10 @@ public class Q11 {
 				System.out.print("\n");
 			}
 		
-			System.out.print("«ö'0' µ²§ô ,«ö¡¦1¡¦Ä~Äò");
+			System.out.print("æŒ‰'0' çµæŸ ,æŒ‰â€™1â€™ç¹¼çºŒ");
 			status= scanner.nextInt();
-			if(status !=0 || status !=1) {System.out.print("¿é¤J¿ù»~,±j¨îµ²§ô");};
-			if(status ==0) {System.out.print("µ²§ô");};
+			if(status !=0 || status !=1) {System.out.print("è¼¸å…¥éŒ¯èª¤,å¼·åˆ¶çµæŸ");};
+			if(status ==0) {System.out.print("çµæŸ");};
 		}
 	}
 	}

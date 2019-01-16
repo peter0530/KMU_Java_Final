@@ -1,3 +1,4 @@
+//Q14
 import java.util.Scanner;
 public class Q14 {
 
@@ -12,7 +13,7 @@ public class Q14 {
 		int bbb =99;
 		
 		int a =0;
-	    System.out.print("½Ð¿é¤Ja");
+	    System.out.print("è«‹è¼¸å…¥a");
 	    a = scanner.nextInt();
 	    if(a == 2 || a == 3 ) { aa[99] = 1; }
 		aa[100] = a;
@@ -27,7 +28,7 @@ public class Q14 {
 		
 		
 		int b =0;
-	    System.out.print("½Ð¿é¤Jb");
+	    System.out.print("è«‹è¼¸å…¥b");
 	    b = scanner.nextInt();
 	    if(b == 2 || b == 3 ) { bb[99] = 1; }
 		bb[100] = b;
@@ -46,7 +47,7 @@ public class Q14 {
 			
 			for(int y  = 100;y>=0;y--) {
 				if(aa[x] == bb[y]) {
-					System.out.println(a +"»P" + b +"ªº³Ì¤j¤½¦]¼Æ¬°" + aa[x]);
+					System.out.println(a +"èˆ‡" + b +"çš„æœ€å¤§å…¬å› æ•¸ç‚º" + aa[x]);
 					break m;
 				}
 			}
@@ -61,7 +62,7 @@ public class Q14 {
 		for(int x  = 1;x<=100;x++) {
 			for(int y  = 1;y<=100;y++) {
 				if(aa[x] == bb[y]) {
-					System.out.println(a +"»P" + b +"ªº³Ì¤p¤½­¿¼Æ¬°" + aa[x]);
+					System.out.println(a +"èˆ‡" + b +"çš„æœ€å°å…¬å€æ•¸ç‚º" + aa[x]);
 					System.exit(0);
 				}
 			}

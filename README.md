@@ -21,16 +21,16 @@
 
 輸入：ABG  BZJG  
 輸出：3B  
-輸入：ABGJ　CBJG
-輸出：1A2B
-輸入：ABGI　ATGI
-輸出：3A
-輸入：ABGI　CYHK
-輸出：無相同字元
-輸入：ABGJ　BJG
-輸出：不等長
-輸入：ABGJ
-輸出：非兩個字串
+輸入：ABGJ　CBJG  
+輸出：1A2B  
+輸入：ABGI　ATGI  
+輸出：3A  
+輸入：ABGI　CYHK  
+輸出：無相同字元  
+輸入：ABGJ　BJG  
+輸出：不等長  
+輸入：ABGJ  
+輸出：非兩個字串  
 輸入：０ <-代表程式結束。
 
 

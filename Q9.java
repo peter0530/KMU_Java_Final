@@ -1,3 +1,4 @@
+//Q9
 import java.util.Scanner;
 public class Q9 {
 	public static void main(String[] args) {
@@ -10,13 +11,13 @@ public class Q9 {
 		 Scanner scanner = new Scanner(System.in);
 		
 		 while (IDCheck != true  ) {
-			System.out.print("½Ğ¿é¤J¨­¤ÀÃÒ¦r¸¹:");
+			System.out.print("è«‹è¼¸å…¥èº«åˆ†è­‰å­—è™Ÿ:");
 			ID=scanner.next();
 			if(!ID.equals("0")) {
 			 if(ID.matches("[a-zA-Z][0-9]{9}" )){
 				 IDCheck = true;
 			 }else{
-				 System.out.println("½d³ò¿ù»~¡A½Ğ¿é¤J1¦ì¦r¥À+9¦ì¼Æ¦r");
+				 System.out.println("ç¯„åœéŒ¯èª¤ï¼Œè«‹è¼¸å…¥1ä½å­—æ¯+9ä½æ•¸å­—");
 			 }
 			 
 			ID=ID.toUpperCase();
@@ -30,12 +31,12 @@ public class Q9 {
 			 
 
 				 if(  Character.getNumericValue(ID.charAt(10)) == check ) {
-				 System.out.print("¨­¤ÀÃÒ¦r¸¹ÅçÃÒ³q¹L" );
+				 System.out.print("èº«åˆ†è­‰å­—è™Ÿé©—è­‰é€šé" );
 			 }else {
-				 System.out.print("¨­¤ÀÃÒ¦r¸¹ÅçÃÒ¥¢±Ñ" );
+				 System.out.print("èº«åˆ†è­‰å­—è™Ÿé©—è­‰å¤±æ•—" );
 			 }
 		 }else {
-			 System.out.print("µ²§ô" );
+			 System.out.print("çµæŸ" );
 			 break;
 		 }
 		 }	

@@ -1,3 +1,4 @@
+//Q7
 import java.util.Scanner;
 class fact{
     long recursive(int i){ 

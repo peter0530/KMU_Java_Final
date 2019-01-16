@@ -157,7 +157,7 @@ ___
 #### 楊暉三角塔（或稱巴斯卡三角型）
 
 說明：請寫出由第a階到第b階之楊暉三角塔（或稱巴斯卡三角型）。請注意：三角塔之排列須對偁，不可為倒三角或倒梯形，否則不予計分。輸入的數值範圍為0～10。程式中必須有須有判斷範圍的程式，若是超出題目所訂定的數值範圍則要求重新輸入。當輸入一字元“0”時即結束此程式。  
-註：第n階之楊暉三角塔： ![C](https://raw.githubusercontent.com/peter0530/KMU_Java_Final/master/C.jpg "C") 
+註：第n階之楊暉三角塔： ![C](https://raw.githubusercontent.com/peter0530/KMU_Java_Final/master/img/C.jpg "C") 
 
 畫面輸出結果：  
 請寫出a階到b階之楊暉三角塔：  
@@ -247,7 +247,7 @@ ___
 
 說明：由學生輸入2個3*3方陣(共18個矩陣因子)。進行矩陣相乘。程式最後詢問使用者是否還要繼續，輸入”０”則結束此程式。
 
-![3*3](https://raw.githubusercontent.com/peter0530/KMU_Java_Final/master/3_3..jpg "3*3") 
+![3*3](https://raw.githubusercontent.com/peter0530/KMU_Java_Final/master/img/3_3..jpg "3*3") 
 
 
 畫面輸出結果：  

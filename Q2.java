@@ -9,14 +9,14 @@ num = new int[10];
 int y = 1;
 int z = 1;
 Scanner scanner = new Scanner(System.in);
-System.out.print("½Ğ¿é¤J1~100ªº¾ã¼Æ¶i¦æ½è¦]¼Æ¤À¸Ñ:");
+System.out.print("è«‹è¼¸å…¥1~100çš„æ•´æ•¸é€²è¡Œè³ªå› æ•¸åˆ†è§£:");
 in =scanner.nextInt();
 if(in ==0) {
-	System.out.print("µ²§ô");
+	System.out.print("çµæŸ");
 }else if(in <1 ||  in>100) {
-	System.out.print("½d³ò¿ù»~,½Ğ­«·s¿é¤J");
+	System.out.print("ç¯„åœéŒ¯èª¤,è«‹é‡æ–°è¼¸å…¥");
 }else {
-System.out.print("½è¼Æ:");
+System.out.print("è³ªæ•¸:");
 for(int i = 2 ;i<=in;i++) {
 	sum = 0;
 			for(int j =2;j<=i;j++) {
@@ -27,11 +27,9 @@ for(int i = 2 ;i<=in;i++) {
 
 
 int  k=2; 
-System.out.print("\n½è¦]¼Æ"+in+"="); 
+System.out.print("\nè³ªå› æ•¸"+in+"="); 
 while (k<=in){ 
-   if(k==in){
-      break;
-   }else if (in%k==0){
+if (in%k==0){
 	   if(cache[y-1] == k ) {
 		   y--;z--;
 	   cache[y] =k ;
@@ -48,7 +46,7 @@ while (k<=in){
 }
 for(int p = 1 ; p <10 ;p++) {
 	if(cache[p] !=0) {
-System.out.println(cache[p]+"("+num[p]+")");
+System.out.print(cache[p]+"("+num[p]+")");
 	}else 	if(cache[1] ==0) {
 		System.out.println(in+"(1)");
 		break;

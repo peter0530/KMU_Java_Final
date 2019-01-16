@@ -1,3 +1,4 @@
+//Q15
 import java.util.Scanner;
 class Dates{ 
     String week[] = {"","一","二","三","四","五","六","日"}; 

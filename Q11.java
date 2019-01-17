@@ -68,7 +68,7 @@ public class Q11 {
 		
 			System.out.print("按'0' 結束 ,按’1’繼續");
 			status= scanner.nextInt();
-				switch( status ) {
+			switch( status ) {
 			case 1:break; 
 			case 0 :System.out.print("結束");
 			break; 
